@@ -23,8 +23,8 @@ export const site = {
     zh: "週一至週五 08:30 – 17:30",
     en: "Mon – Fri, 8:30 AM – 5:30 PM",
   },
-  facebookPage: "https://www.facebook.com/yourpage",
-  messenger: "https://m.me/yourpage",
+  facebookPage: "https://www.facebook.com/JinliLaser/?locale=zh_TW",
+  messenger: "https://m.me/1449680612004287",
   siteUrl: "https://die-website.netlify.app",
 };
 
