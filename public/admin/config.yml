@@ -1,0 +1,141 @@
+backend:
+  name: github
+  repo: pk7511sm/die-website
+  branch: main
+
+locale: "zh_Hant"
+
+media_folder: "public/images"
+public_folder: "/images"
+
+collections:
+  - name: "data"
+    label: "網站內容管理"
+    files:
+      - name: "cases"
+        label: "刀模案例"
+        file: "content/cases.json"
+        fields:
+          - name: "items"
+            label: "案例列表"
+            label_singular: "案例"
+            widget: "list"
+            fields:
+              - { name: "id", label: "ID（英文，不可重複）", widget: "string" }
+              - name: "category"
+                label: "分類"
+                widget: "select"
+                options:
+                  - { label: "紙盒刀模", value: "paper" }
+                  - { label: "泡棉刀模", value: "foam" }
+                  - { label: "盤刀", value: "circular" }
+                  - { label: "特殊刀模", value: "special" }
+                  - { label: "高刀 / 特殊刀材", value: "high-rule" }
+                  - { label: "打樣與成型", value: "prototype" }
+              - name: "title"
+                label: "標題"
+                widget: "object"
+                fields:
+                  - { name: "zh", label: "中文標題", widget: "string" }
+                  - { name: "en", label: "English Title", widget: "string" }
+              - name: "short"
+                label: "簡短說明"
+                widget: "object"
+                fields:
+                  - { name: "zh", label: "中文說明", widget: "string" }
+                  - { name: "en", label: "English Description", widget: "string" }
+              - name: "materials"
+                label: "適用材料"
+                widget: "object"
+                fields:
+                  - { name: "zh", label: "中文", widget: "string" }
+                  - { name: "en", label: "English", widget: "string" }
+              - name: "industries"
+                label: "適用產業"
+                widget: "object"
+                fields:
+                  - { name: "zh", label: "中文", widget: "string" }
+                  - { name: "en", label: "English", widget: "string" }
+              - { name: "image", label: "圖片", widget: "image", hint: "建議 4:3 比例" }
+
+      - name: "products"
+        label: "商品目錄"
+        file: "content/products.json"
+        fields:
+          - name: "items"
+            label: "商品列表"
+            label_singular: "商品"
+            widget: "list"
+            fields:
+              - { name: "id", label: "ID（英文，不可重複）", widget: "string" }
+              - name: "category"
+                label: "分類"
+                widget: "select"
+                options:
+                  - { label: "刀模耗材", value: "consumables" }
+                  - { label: "壓線與壓痕用品", value: "creasing" }
+                  - { label: "清廢相關產品", value: "stripping" }
+                  - { label: "底板與鐵板", value: "baseboard" }
+                  - { label: "盤刀與特殊刀具", value: "blades" }
+                  - { label: "客製化刀模配件", value: "custom" }
+              - name: "name"
+                label: "商品名稱"
+                widget: "object"
+                fields:
+                  - { name: "zh", label: "中文名稱", widget: "string" }
+                  - { name: "en", label: "English Name", widget: "string" }
+              - name: "application"
+                label: "用途"
+                widget: "object"
+                fields:
+                  - { name: "zh", label: "中文", widget: "string" }
+                  - { name: "en", label: "English", widget: "string" }
+              - name: "scope"
+                label: "適用範圍"
+                widget: "object"
+                fields:
+                  - { name: "zh", label: "中文", widget: "string" }
+                  - { name: "en", label: "English", widget: "string" }
+              - name: "specs"
+                label: "可選規格"
+                widget: "object"
+                fields:
+                  - { name: "zh", label: "中文", widget: "string" }
+                  - { name: "en", label: "English", widget: "string" }
+              - { name: "image", label: "商品圖片", widget: "image", hint: "建議 1:1 正方形" }
+
+      - name: "videos"
+        label: "影片展示"
+        file: "content/videos.json"
+        fields:
+          - name: "items"
+            label: "影片列表"
+            label_singular: "影片"
+            widget: "list"
+            fields:
+              - { name: "id", label: "ID（英文，不可重複）", widget: "string" }
+              - name: "category"
+                label: "分類"
+                widget: "select"
+                options:
+                  - { label: "設備介紹", value: "equipment" }
+                  - { label: "刀模製作", value: "process" }
+                  - { label: "雷射切割", value: "laser" }
+                  - { label: "彎刀加工", value: "bending" }
+                  - { label: "商品介紹", value: "product" }
+                  - { label: "紙盒成型", value: "forming" }
+              - name: "title"
+                label: "標題"
+                widget: "object"
+                fields:
+                  - { name: "zh", label: "中文標題", widget: "string" }
+                  - { name: "en", label: "English Title", widget: "string" }
+              - name: "short"
+                label: "簡短說明"
+                widget: "object"
+                fields:
+                  - { name: "zh", label: "中文", widget: "string" }
+                  - { name: "en", label: "English", widget: "string" }
+              - { name: "thumbnail", label: "縮圖", widget: "image", hint: "建議 16:9" }
+              - { name: "youtubeId", label: "YouTube ID（選填）", widget: "string", required: false }
+              - { name: "externalUrl", label: "外部影片連結（選填）", widget: "string", required: false }

@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  /* 字體變數：部署時可改用 next/font 注入（見交付說明）。
+     目前 fallback 到系統與常見中文字體，確保離線與各裝置可讀。 */
+  --font-archivo: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --font-noto-sans-tc: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei",
+    "Heiti TC", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: #F5F6F7;
+  color: #1C1C1E;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+.hairline {
+  border-color: #D9DDE1;
+}
+
+.kicker-line::before {
+  content: "";
+  display: inline-block;
+  width: 28px;
+  height: 2px;
+  background: #E8590C;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.card-lift {
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.card-lift:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px -12px rgba(28, 28, 30, 0.18);
+}

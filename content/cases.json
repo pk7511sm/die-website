@@ -1,0 +1,130 @@
+{
+  "items": [
+    {
+      "id": "case-color-box",
+      "category": "paper",
+      "title": {
+        "zh": "彩盒包裝刀模",
+        "en": "Color Box Packaging Die"
+      },
+      "short": {
+        "zh": "多面成型彩盒刀模，含壓線與卡扣結構。",
+        "en": "Multi-panel color box die with creasing and locking tabs."
+      },
+      "materials": {
+        "zh": "卡紙、灰紙板",
+        "en": "Cardstock, greyboard"
+      },
+      "industries": {
+        "zh": "品牌客戶、印刷廠",
+        "en": "Brand owners, printing"
+      },
+      "image": "/images/case-1.svg"
+    },
+    {
+      "id": "case-gift-box",
+      "category": "paper",
+      "title": {
+        "zh": "禮盒結構刀模",
+        "en": "Gift Box Structural Die"
+      },
+      "short": {
+        "zh": "天地蓋禮盒刀模，注重摺線精度。",
+        "en": "Lid-and-base gift box die with precise crease lines."
+      },
+      "materials": {
+        "zh": "厚卡紙、裱貼材",
+        "en": "Thick cardstock, laminated board"
+      },
+      "industries": {
+        "zh": "禮品、品牌客戶",
+        "en": "Gifting, brand owners"
+      },
+      "image": "/images/case-2.svg"
+    },
+    {
+      "id": "case-foam-insert",
+      "category": "foam",
+      "title": {
+        "zh": "電子產品泡棉內襯",
+        "en": "Electronics Foam Insert"
+      },
+      "short": {
+        "zh": "多層泡棉內襯刀模，緩衝與定位兼顧。",
+        "en": "Multi-layer foam insert die for cushioning and positioning."
+      },
+      "materials": {
+        "zh": "EPE、EVA 泡棉",
+        "en": "EPE, EVA foam"
+      },
+      "industries": {
+        "zh": "電子包裝、泡棉加工",
+        "en": "Electronics packaging, foam converters"
+      },
+      "image": "/images/case-3.svg"
+    },
+    {
+      "id": "case-circular",
+      "category": "circular",
+      "title": {
+        "zh": "薄膜盤刀加工",
+        "en": "Film Circular Die"
+      },
+      "short": {
+        "zh": "重複裁切用盤刀，量產一致性佳。",
+        "en": "Circular die for repetitive film cutting with strong consistency."
+      },
+      "materials": {
+        "zh": "薄膜、複合材",
+        "en": "Films, composites"
+      },
+      "industries": {
+        "zh": "包裝廠、量產客戶",
+        "en": "Packaging, high-volume clients"
+      },
+      "image": "/images/case-4.svg"
+    },
+    {
+      "id": "case-special",
+      "category": "special",
+      "title": {
+        "zh": "鞋材特殊刀模",
+        "en": "Footwear Material Die"
+      },
+      "short": {
+        "zh": "鞋材裁切刀模，支援特殊厚度。",
+        "en": "Footwear material cutting die supporting special thicknesses."
+      },
+      "materials": {
+        "zh": "皮革、複合鞋材",
+        "en": "Leather, composite footwear materials"
+      },
+      "industries": {
+        "zh": "鞋材加工",
+        "en": "Footwear materials"
+      },
+      "image": "/images/case-5.svg"
+    },
+    {
+      "id": "case-prototype",
+      "category": "prototype",
+      "title": {
+        "zh": "新品結構打樣",
+        "en": "New Product Structure Prototype"
+      },
+      "short": {
+        "zh": "協助品牌客戶確認盒型與刀線後量產。",
+        "en": "Helped a brand client confirm box structure before production."
+      },
+      "materials": {
+        "zh": "依專案",
+        "en": "Project-dependent"
+      },
+      "industries": {
+        "zh": "品牌、文創開發者",
+        "en": "Brands, product developers"
+      },
+      "image": "/images/case-6.svg"
+    }
+  ]
+}

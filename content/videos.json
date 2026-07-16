@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "id": "video-factory",
+      "category": "equipment",
+      "title": {
+        "zh": "工廠設備介紹",
+        "en": "Factory Equipment Overview"
+      },
+      "short": {
+        "zh": "帶您認識我們的刀模製作設備與產線。",
+        "en": "A look at our die-making equipment and production line."
+      },
+      "thumbnail": "/images/video-1.svg",
+      "youtubeId": "",
+      "externalUrl": ""
+    },
+    {
+      "id": "video-laser",
+      "category": "laser",
+      "title": {
+        "zh": "雷射切割過程",
+        "en": "Laser Cutting Process"
+      },
+      "short": {
+        "zh": "雷射切割底板與刀模的製作示範。",
+        "en": "Demonstration of laser cutting for die boards."
+      },
+      "thumbnail": "/images/video-2.svg",
+      "youtubeId": "",
+      "externalUrl": ""
+    },
+    {
+      "id": "video-forming",
+      "category": "forming",
+      "title": {
+        "zh": "紙盒成型示範",
+        "en": "Carton Forming Demo"
+      },
+      "short": {
+        "zh": "從刀模到成品紙盒的成型過程。",
+        "en": "From die to finished carton — the forming process."
+      },
+      "thumbnail": "/images/video-3.svg",
+      "youtubeId": "",
+      "externalUrl": ""
+    }
+  ]
+}
