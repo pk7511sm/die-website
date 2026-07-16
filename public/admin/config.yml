@@ -3,7 +3,7 @@ backend:
   repo: pk7511sm/die-website
   branch: main
   auth_type: pkce
-  app_id: Ov23liteqDNupDp00Qe8
+  app_id: Iv23lihHMKT8AxJe2L2G
 
 locale: "zh_Hant"
 
