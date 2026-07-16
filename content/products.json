@@ -7,7 +7,7 @@
       "application": { "zh": "無痕軋盒、減少毛邊、提升軋紙速度一成以上、減少後續加工時間與損耗，可讓紙張正反面雙凸。", "en": "Enables clean die-cutting with reduced burrs, increases cutting speed by over 10%, reduces post-processing time and waste, and supports double-sided embossing." },
       "scope": { "zh": "紙盒軋切、彩盒加工、瓦楞包裝", "en": "Carton die-cutting, color box processing, corrugated packaging" },
       "specs": { "zh": "依刀模尺寸客製", "en": "Customized to die size" },
-      "image": "/images/product-baseboard.svg"
+      "image": "/images/product-baseboard.jpg"
     },
     {
       "id": "steel-plate",
@@ -16,7 +16,7 @@
       "application": { "zh": "用於壓切支撐與成型穩定，各種尺寸皆可訂製，亦可修改或訂製子母板。", "en": "Provides cutting support and forming stability. All sizes available; parent-child plates can be customized or modified." },
       "scope": { "zh": "平壓設備、量產加工", "en": "Flatbed die-cutting equipment, production runs" },
       "specs": { "zh": "厚度 1 / 1.5 / 2 / 3 / 5 mm，尺寸可訂製", "en": "Thickness: 1 / 1.5 / 2 / 3 / 5 mm, custom sizes available" },
-      "image": "/images/product-steel.svg"
+      "image": "/images/product-steel-plate.jpg"
     },
     {
       "id": "creasing-matrix",
@@ -25,7 +25,7 @@
       "application": { "zh": "用於紙盒壓線成型，提升摺線品質與一致性。常規與客製規格皆可供應。", "en": "For paper creasing and folding, improving fold quality and consistency. Standard and custom sizes available." },
       "scope": { "zh": "紙盒、彩盒、瓦楞包裝", "en": "Cartons, color boxes, corrugated packaging" },
       "specs": { "zh": "常規：0313 / 0515 / 0517 / 0627 / 0630 / 0632 / 0735 / 0835 / 0840，可客製", "en": "Standard: 0313 / 0515 / 0517 / 0627 / 0630 / 0632 / 0735 / 0835 / 0840; custom sizes available" },
-      "image": "/images/product-creasing.svg"
+      "image": "/images/product-creasing.jpg"
     },
     {
       "id": "quick-waste-remover",
@@ -34,7 +34,7 @@
       "application": { "zh": "代替傳統下針方式，能重複使用，操作簡易、快速上手。本公司專利產品。", "en": "Replaces traditional ejection pins. Reusable, easy to operate, and quick to set up. Patented by Jinli Laser." },
       "scope": { "zh": "平壓模切、紙器加工", "en": "Flatbed die-cutting, paperboard processing" },
       "specs": { "zh": "依機型搭配", "en": "Matched to equipment model" },
-      "image": "/images/product-stripping.svg"
+      "image": "/images/product-waste-remover.jpg"
     },
     {
       "id": "stripping-machine",
@@ -43,7 +43,7 @@
       "application": { "zh": "快速除去廢料，減少人力成本、節省時間。", "en": "Quickly removes waste material, reducing labor costs and saving time." },
       "scope": { "zh": "紙器加工、量產線", "en": "Paperboard processing, production lines" },
       "specs": { "zh": "機型：電動 / 氣動；敲紙寬度：寬版 / 窄版", "en": "Type: Electric / Pneumatic; Width: Wide / Narrow" },
-      "image": "/images/product-custom.svg"
+      "image": "/images/product-stripping-machine.jpg"
     },
     {
       "id": "ejection-pins",
@@ -52,7 +52,7 @@
       "application": { "zh": "用於清廢作業，協助廢料脫離成品。", "en": "Used in waste stripping to separate waste from finished product." },
       "scope": { "zh": "財順用模切設備（3孔座 / 5孔座）", "en": "Compatible with die-cutting equipment (3-hole / 5-hole base)" },
       "specs": { "zh": "3孔座 / 5孔座", "en": "3-hole / 5-hole base" },
-      "image": "/images/product-rule.svg"
+      "image": "/images/product-ejection-pins.jpg"
     },
     {
       "id": "perforating-bar",
@@ -61,7 +61,7 @@
       "application": { "zh": "高速鋼材質，可自行研磨，用於刀模打齒加工。", "en": "High-speed steel construction, user-sharpenable, for perforating die processing." },
       "scope": { "zh": "刀模加工、打齒作業", "en": "Die processing, perforation work" },
       "specs": { "zh": "高速鋼材質", "en": "High-speed steel" },
-      "image": "/images/product-rule.svg"
+      "image": "/images/product-perforating-bar.jpg"
     },
     {
       "id": "grinding-wheel",
@@ -70,7 +70,7 @@
       "application": { "zh": "用於刀片研磨與加工。提供金鑽石砂輪片與一般基本砂輪片兩種。", "en": "For blade grinding and processing. Available in diamond and standard types." },
       "scope": { "zh": "刀模製作、刀片研磨", "en": "Die making, blade grinding" },
       "specs": { "zh": "金鑽石：0.4–1.2mm；一般：0.15–1.2mm", "en": "Diamond: 0.4–1.2mm; Standard: 0.15–1.2mm" },
-      "image": "/images/product-custom.svg"
+      "image": "/images/product-grinding-wheel.jpg"
     },
     {
       "id": "rubber-tube",
@@ -79,7 +79,7 @@
       "application": { "zh": "安裝於刀模刀片兩側，協助裁切後材料脫離刀片。", "en": "Mounted alongside cutting rules to help material release after cutting." },
       "scope": { "zh": "各式刀模", "en": "All types of cutting dies" },
       "specs": { "zh": "厚度 1 / 1.5 / 2 / 2.5 / 3 mm", "en": "Thickness: 1 / 1.5 / 2 / 2.5 / 3 mm" },
-      "image": "/images/product-rule.svg"
+      "image": "/images/product-rubber-tube.jpg"
     },
     {
       "id": "patching-strip",
@@ -88,7 +88,7 @@
       "application": { "zh": "用於刀模底板修補與調整。", "en": "For base board repair and adjustment on cutting dies." },
       "scope": { "zh": "刀模維修、底板調整", "en": "Die maintenance, base board adjustment" },
       "specs": { "zh": "白色（20條裝）/ 牛皮（10條裝）", "en": "White (20 pcs) / Kraft (10 pcs)" },
-      "image": "/images/product-custom.svg"
+      "image": "/images/product-patching-strip.jpg"
     },
     {
       "id": "press-plate",
@@ -97,7 +97,7 @@
       "application": { "zh": "用於刀模壓力調整與輔助固定。", "en": "For die pressure adjustment and auxiliary fixing." },
       "scope": { "zh": "各式平壓刀模", "en": "Flatbed cutting dies" },
       "specs": { "zh": "依需求搭配", "en": "Matched to requirement" },
-      "image": "/images/product-custom.svg"
+      "image": "/images/product-press-plate.jpg"
     },
     {
       "id": "suction-cup-single",
@@ -106,7 +106,7 @@
       "application": { "zh": "特殊設計中間弧度增加吸力，適用於紙張搬運與進紙。亦販售一般型。", "en": "Specially designed with curved center for enhanced suction. Ideal for sheet feeding and handling. Standard type also available." },
       "scope": { "zh": "模切機進紙系統", "en": "Die-cutting machine feeding systems" },
       "specs": { "zh": "特殊弧度型 / 一般型", "en": "Curved type / Standard type" },
-      "image": "/images/product-custom.svg"
+      "image": "/images/product-suction-single.jpg"
     },
     {
       "id": "suction-cup-double",
@@ -115,7 +115,7 @@
       "application": { "zh": "矽膠材質，適用於需要更強吸附力的進紙作業。", "en": "Silicone construction for stronger suction in sheet feeding operations." },
       "scope": { "zh": "模切機進紙系統", "en": "Die-cutting machine feeding systems" },
       "specs": { "zh": "矽膠材質", "en": "Silicone" },
-      "image": "/images/product-custom.svg"
+      "image": "/images/product-suction-double.jpg"
     }
   ]
 }
