@@ -2,6 +2,8 @@ backend:
   name: github
   repo: pk7511sm/die-website
   branch: main
+  auth_type: pkce
+  app_id: Ov23liteqDNupDp00Qe8
 
 locale: "zh_Hant"
 
