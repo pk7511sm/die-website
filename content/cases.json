@@ -63,27 +63,7 @@
       },
       "image": "/images/case-3.svg"
     },
-    {
-      "id": "case-circular",
-      "category": "circular",
-      "title": {
-        "zh": "薄膜盤刀加工",
-        "en": "Film Circular Die"
-      },
-      "short": {
-        "zh": "重複裁切用盤刀，量產一致性佳。",
-        "en": "Circular die for repetitive film cutting with strong consistency."
-      },
-      "materials": {
-        "zh": "薄膜、複合材",
-        "en": "Films, composites"
-      },
-      "industries": {
-        "zh": "包裝廠、量產客戶",
-        "en": "Packaging, high-volume clients"
-      },
-      "image": "/images/case-4.svg"
-    },
+   
     {
       "id": "case-special",
       "category": "special",
