@@ -10,8 +10,8 @@ import {
   SectionHeading,
   FrameImage,
   AskLink,
-  MessengerButton,
   EmailButton,
+  SocialLinks,
   InquiryButtons,
 } from "@/components/ui";
 
@@ -43,15 +43,17 @@ export function Hero({ lang }: { lang: Lang }) {
           <p className="mt-5 max-w-xl text-base leading-relaxed text-slate-500">
             {copy.sub}
           </p>
-          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-            <MessengerButton lang={lang} size="lg" />
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
+            <EmailButton lang={lang} size="lg" />
             <Link
               href={link(lang, "services")}
               className="inline-flex items-center justify-center rounded-md border border-slate-300 px-7 py-3.5 text-base font-semibold text-steel transition-colors hover:border-steel hover:bg-slate-50"
             >
               {copy.services}
             </Link>
-            <EmailButton lang={lang} size="lg" variant="ghost" />
+          </div>
+          <div className="mt-4">
+            <SocialLinks lang={lang} size="md" />
           </div>
         </div>
         <div>

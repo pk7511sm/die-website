@@ -23,6 +23,30 @@ export function Footer({ lang }: { lang: Lang }) {
             <p className="mt-4 text-sm leading-relaxed text-slate-400">
               {site.tagline[lang]}
             </p>
+            {/* 社群連結 */}
+            <div className="mt-5">
+              <h3 className="text-xs font-semibold uppercase tracking-wider text-slate-500">
+                {t.footer.followUs[lang]}
+              </h3>
+              <div className="mt-2 flex gap-3">
+                <a
+                  href={site.facebookPage}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded border border-white/15 px-3 py-1.5 text-xs text-slate-400 hover:bg-white/10 hover:text-white"
+                >
+                  Facebook
+                </a>
+                <a
+                  href={site.instagram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded border border-white/15 px-3 py-1.5 text-xs text-slate-400 hover:bg-white/10 hover:text-white"
+                >
+                  {site.instagramHandle}
+                </a>
+              </div>
+            </div>
           </div>
 
           {/* 快速連結 */}
@@ -63,22 +87,12 @@ export function Footer({ lang }: { lang: Lang }) {
               </li>
               <li>{site.businessHours[lang]}</li>
             </ul>
-            <div className="mt-4 flex gap-3">
+            <div className="mt-4">
               <a
-                href={site.messenger}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded bg-ember px-3 py-2 text-xs font-semibold text-white hover:bg-ember-dark"
+                href={buildMailto(lang)}
+                className="rounded bg-ember px-4 py-2 text-xs font-semibold text-white hover:bg-ember-dark"
               >
-                {t.cta.messenger[lang]}
-              </a>
-              <a
-                href={site.facebookPage}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded border border-white/20 px-3 py-2 text-xs font-semibold text-white hover:bg-white/10"
-              >
-                {t.cta.viewPage[lang]}
+                {t.cta.email[lang]}
               </a>
             </div>
           </div>
@@ -95,22 +109,18 @@ export function Footer({ lang }: { lang: Lang }) {
   );
 }
 
-/* 手機版浮動詢價列（sticky bottom），桌機隱藏 */
+/* 手機版浮動詢價列：Email 為主 */
 export function MobileStickyCTA({ lang }: { lang: Lang }) {
   return (
-    <div className="fixed inset-x-0 bottom-0 z-40 grid grid-cols-2 gap-px border-t border-slate-200 bg-slate-200 lg:hidden">
-      <a
-        href={site.messenger}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex items-center justify-center gap-1.5 bg-ember py-3.5 text-sm font-semibold text-white"
-      >
-        {t.cta.messenger[lang]}
-      </a>
+    <div className="fixed inset-x-0 bottom-0 z-40 md:hidden">
       <a
         href={buildMailto(lang)}
-        className="flex items-center justify-center gap-1.5 bg-steel py-3.5 text-sm font-semibold text-white"
+        className="flex items-center justify-center gap-2 bg-ember py-3.5 text-sm font-semibold text-white"
       >
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+          <rect x="3" y="5" width="18" height="14" rx="2" />
+          <path d="m3 7 9 6 9-6" />
+        </svg>
         {t.cta.email[lang]}
       </a>
     </div>

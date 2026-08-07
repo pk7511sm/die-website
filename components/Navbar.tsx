@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Lang, t } from "@/data/translations";
 import { navItems } from "@/data/navigation";
-import { site } from "@/data/site";
+import { site, buildMailto } from "@/data/site";
 import { link, otherLang } from "@/lib/i18n";
 
 export default function Navbar({ lang }: { lang: Lang }) {
@@ -63,12 +63,10 @@ export default function Navbar({ lang }: { lang: Lang }) {
           </Link>
 
           <a
-            href={site.messenger}
-            target="_blank"
-            rel="noopener noreferrer"
+            href={buildMailto(lang)}
             className="hidden rounded-md bg-ember px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-ember-dark sm:inline-flex lg:inline-flex"
           >
-            {lang === "zh" ? "FB 詢價" : "Inquire"}
+            {lang === "zh" ? "Email 詢價" : "Inquire"}
           </a>
 
           {/* 手機 hamburger */}

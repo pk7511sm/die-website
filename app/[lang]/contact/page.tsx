@@ -65,7 +65,17 @@ export default function ContactPage({ params }: { params: { lang: string } }) {
                   rel="noopener noreferrer"
                   className="text-slate-600 hover:text-ember"
                 >
-                  {t.cta.viewPage[lang]}
+                  {t.cta.followFb[lang]} →
+                </a>
+              </InfoRow>
+              <InfoRow label="Instagram">
+                <a
+                  href={site.instagram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-slate-600 hover:text-ember"
+                >
+                  {site.instagramHandle} →
                 </a>
               </InfoRow>
             </dl>
@@ -73,26 +83,34 @@ export default function ContactPage({ params }: { params: { lang: string } }) {
             {/* CTA 按鈕 */}
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
               <a
-                href={site.messenger}
-                target="_blank"
-                rel="noopener noreferrer"
+                href={buildMailto(lang)}
                 className="inline-flex items-center justify-center gap-2 rounded-md bg-ember px-5 py-3 text-sm font-semibold text-white hover:bg-ember-dark"
               >
-                {t.cta.messenger[lang]}
+                {t.cta.email[lang]}
               </a>
               <a
                 href={buildMailto(lang)}
                 className="inline-flex items-center justify-center gap-2 rounded-md border border-slate-300 px-5 py-3 text-sm font-semibold text-steel hover:border-steel"
               >
-                {t.cta.email[lang]}
+                {t.cta.sendFiles[lang]}
               </a>
+            </div>
+            <div className="mt-3 flex gap-3">
               <a
-                href={site.messenger}
+                href={site.facebookPage}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-md border border-slate-300 px-5 py-3 text-sm font-semibold text-steel hover:border-steel"
+                className="text-sm text-slate-500 hover:text-ember"
               >
-                {t.cta.sendFiles[lang]}
+                {t.cta.followFb[lang]} →
+              </a>
+              <a
+                href={site.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-slate-500 hover:text-ember"
+              >
+                {t.cta.followIg[lang]} →
               </a>
             </div>
           </div>

@@ -25,7 +25,9 @@ export const site = {
   },
   facebookPage: "https://www.facebook.com/JinliLaser/?locale=zh_TW",
   messenger: "https://m.me/1449680612004287",
-  siteUrl: "https://die-website.netlify.app",
+  instagram: "https://www.instagram.com/jinli_laser/",
+  instagramHandle: "@jinli_laser",
+  siteUrl: "https://die-website.vercel.app",
 };
 
 export function buildMailto(lang: "zh" | "en"): string {
