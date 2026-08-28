@@ -3,108 +3,74 @@
     {
       "id": "case-color-box",
       "category": "paper",
-      "title": {
-        "zh": "彩盒包裝刀模",
-        "en": "Color Box Packaging Die"
-      },
-      "short": {
-        "zh": "多面成型彩盒刀模，含壓線與卡扣結構。",
-        "en": "Multi-panel color box die with creasing and locking tabs."
-      },
-      "materials": {
-        "zh": "卡紙、灰紙板",
-        "en": "Cardstock, greyboard"
-      },
-      "industries": {
-        "zh": "品牌客戶、印刷廠",
-        "en": "Brand owners, printing"
-      },
+      "title": { "zh": "彩盒包裝刀模", "en": "Color Box Packaging Die" },
+      "short": { "zh": "多面成型彩盒刀模，含壓線與卡扣結構。", "en": "Multi-panel color box die with creasing and locking tabs." },
+      "materials": { "zh": "卡紙、灰紙板", "en": "Cardstock, greyboard" },
+      "industries": { "zh": "品牌客戶、印刷廠", "en": "Brand owners, printing" },
       "image": "/images/case-1.svg"
     },
     {
       "id": "case-gift-box",
       "category": "paper",
-      "title": {
-        "zh": "禮盒結構刀模",
-        "en": "Gift Box Structural Die"
-      },
-      "short": {
-        "zh": "天地蓋禮盒刀模，注重摺線精度。",
-        "en": "Lid-and-base gift box die with precise crease lines."
-      },
-      "materials": {
-        "zh": "厚卡紙、裱貼材",
-        "en": "Thick cardstock, laminated board"
-      },
-      "industries": {
-        "zh": "禮品、品牌客戶",
-        "en": "Gifting, brand owners"
-      },
+      "title": { "zh": "禮盒結構刀模", "en": "Gift Box Structural Die" },
+      "short": { "zh": "天地蓋禮盒刀模，注重摺線精度。", "en": "Lid-and-base gift box die with precise crease lines." },
+      "materials": { "zh": "厚卡紙、裱貼材", "en": "Thick cardstock, laminated board" },
+      "industries": { "zh": "禮品、品牌客戶", "en": "Gifting, brand owners" },
       "image": "/images/case-2.svg"
     },
     {
       "id": "case-foam-insert",
       "category": "foam",
-      "title": {
-        "zh": "電子產品泡棉內襯",
-        "en": "Electronics Foam Insert"
-      },
-      "short": {
-        "zh": "多層泡棉內襯刀模，緩衝與定位兼顧。",
-        "en": "Multi-layer foam insert die for cushioning and positioning."
-      },
-      "materials": {
-        "zh": "EPE、EVA 泡棉",
-        "en": "EPE, EVA foam"
-      },
-      "industries": {
-        "zh": "電子包裝、泡棉加工",
-        "en": "Electronics packaging, foam converters"
-      },
+      "title": { "zh": "電子產品泡棉內襯", "en": "Electronics Foam Insert" },
+      "short": { "zh": "多層泡棉內襯刀模，緩衝與定位兼顧。", "en": "Multi-layer foam insert die for cushioning and positioning." },
+      "materials": { "zh": "EPE、EVA 泡棉", "en": "EPE, EVA foam" },
+      "industries": { "zh": "電子包裝、泡棉加工", "en": "Electronics packaging, foam converters" },
       "image": "/images/case-3.svg"
     },
-   
     {
       "id": "case-special",
       "category": "special",
-      "title": {
-        "zh": "鞋材特殊刀模",
-        "en": "Footwear Material Die"
-      },
-      "short": {
-        "zh": "鞋材裁切刀模，支援特殊厚度。",
-        "en": "Footwear material cutting die supporting special thicknesses."
-      },
-      "materials": {
-        "zh": "皮革、複合鞋材",
-        "en": "Leather, composite footwear materials"
-      },
-      "industries": {
-        "zh": "鞋材加工",
-        "en": "Footwear materials"
-      },
+      "title": { "zh": "鞋材特殊刀模", "en": "Footwear Material Die" },
+      "short": { "zh": "鞋材裁切刀模，支援特殊厚度。", "en": "Footwear material cutting die supporting special thicknesses." },
+      "materials": { "zh": "皮革、複合鞋材", "en": "Leather, composite footwear materials" },
+      "industries": { "zh": "鞋材加工", "en": "Footwear materials" },
       "image": "/images/case-5.svg"
     },
     {
       "id": "case-prototype",
       "category": "prototype",
-      "title": {
-        "zh": "新品結構打樣",
-        "en": "New Product Structure Prototype"
-      },
-      "short": {
-        "zh": "協助品牌客戶確認盒型與刀線後量產。",
-        "en": "Helped a brand client confirm box structure before production."
-      },
-      "materials": {
-        "zh": "依專案",
-        "en": "Project-dependent"
-      },
-      "industries": {
-        "zh": "品牌、文創開發者",
-        "en": "Brands, product developers"
-      },
+      "title": { "zh": "新品結構打樣", "en": "New Product Structure Prototype" },
+      "short": { "zh": "協助品牌客戶確認盒型與刀線後量產。", "en": "Helped a brand client confirm box structure before production." },
+      "materials": { "zh": "依專案", "en": "Project-dependent" },
+      "industries": { "zh": "品牌、文創開發者", "en": "Brands, product developers" },
       "image": "/images/case-6.svg"
+    },
+    {
+      "id": "case-large-die",
+      "category": "foam",
+      "title": { "zh": "大型 EVA 地墊 / 巧拼刀模", "en": "Large EVA Floor Mat / Puzzle Mat Die" },
+      "short": { "zh": "大尺寸地墊與巧拼裁切刀模，支援 EVA 材料與特殊刀型。", "en": "Large-format cutting die for EVA floor mats and interlocking puzzle mats." },
+      "materials": { "zh": "EVA、地墊材料", "en": "EVA, floor mat materials" },
+      "industries": { "zh": "地墊廠、泡棉加工、運動用品", "en": "Mat manufacturers, foam converters, sports goods" },
+      "image": "/images/case-large-die.jpg"
+    },
+    {
+      "id": "case-foam-die",
+      "category": "foam",
+      "title": { "zh": "專業泡綿刀模", "en": "Professional Foam Cutting Die" },
+      "short": { "zh": "精密泡綿裁切刀模，刀型細緻、適合複雜圖案成型。", "en": "Precision foam cutting die with detailed blade patterns for complex shapes." },
+      "materials": { "zh": "泡綿、緩衝材", "en": "Foam, cushioning materials" },
+      "industries": { "zh": "泡棉加工、包裝內襯", "en": "Foam converters, packaging inserts" },
+      "image": "/images/case-foam-die.jpg"
+    },
+    {
+      "id": "case-acrylic-die",
+      "category": "special",
+      "title": { "zh": "壓克力刀模", "en": "Acrylic Cutting Die" },
+      "short": { "zh": "壓克力底板搭配鋼刀，透明可視刀線位置，適合精密裁切需求。", "en": "Acrylic-base die with steel rules, offering visible blade positioning for precision cutting." },
+      "materials": { "zh": "壓克力底板、鋼刀", "en": "Acrylic base, steel cutting rules" },
+      "industries": { "zh": "精密裁切、特殊材料加工", "en": "Precision cutting, specialty material processing" },
+      "image": "/images/case-acrylic-die.jpg"
     }
   ]
 }
