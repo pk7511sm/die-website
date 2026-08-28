@@ -10,15 +10,6 @@
       "image": "/images/case-1.svg"
     },
     {
-      "id": "case-gift-box",
-      "category": "paper",
-      "title": { "zh": "禮盒結構刀模", "en": "Gift Box Structural Die" },
-      "short": { "zh": "天地蓋禮盒刀模，注重摺線精度。", "en": "Lid-and-base gift box die with precise crease lines." },
-      "materials": { "zh": "厚卡紙、裱貼材", "en": "Thick cardstock, laminated board" },
-      "industries": { "zh": "禮品、品牌客戶", "en": "Gifting, brand owners" },
-      "image": "/images/case-2.svg"
-    },
-    {
       "id": "case-foam-insert",
       "category": "foam",
       "title": { "zh": "電子產品泡棉內襯", "en": "Electronics Foam Insert" },
@@ -37,12 +28,12 @@
       "image": "/images/case-5.svg"
     },
     {
-      "id": "case-prototype",
-      "category": "prototype",
-      "title": { "zh": "新品結構打樣", "en": "New Product Structure Prototype" },
-      "short": { "zh": "協助品牌客戶確認盒型與刀線後量產。", "en": "Helped a brand client confirm box structure before production." },
-      "materials": { "zh": "依專案", "en": "Project-dependent" },
-      "industries": { "zh": "品牌、文創開發者", "en": "Brands, product developers" },
+      "id": "case-stripping-design",
+      "category": "special",
+      "title": { "zh": "專業除屑模具設計", "en": "Professional Waste Stripping Die Design" },
+      "short": { "zh": "針對清廢需求設計的專用模具，提升除屑效率、降低人力成本與加工損耗。", "en": "Custom-designed stripping dies that improve waste removal efficiency, reduce labor costs, and minimize processing loss." },
+      "materials": { "zh": "依加工材料與清廢需求客製", "en": "Customized by material and stripping requirements" },
+      "industries": { "zh": "紙器加工、包裝廠、量產客戶", "en": "Paperboard processing, packaging, high-volume clients" },
       "image": "/images/case-6.svg"
     },
     {
