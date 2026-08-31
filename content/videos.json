@@ -1,49 +1,40 @@
 {
   "items": [
     {
-      "id": "video-factory",
-      "category": "equipment",
-      "title": {
-        "zh": "工廠設備介紹",
-        "en": "Factory Equipment Overview"
-      },
-      "short": {
-        "zh": "帶您認識我們的刀模製作設備與產線。",
-        "en": "A look at our die-making equipment and production line."
-      },
+      "id": "video-laser-cutting",
+      "category": "laser",
+      "title": { "zh": "自有雷射機切割過程", "en": "Laser Cutting Process" },
+      "short": { "zh": "全新自有雷射機，底板切割作業實錄。", "en": "Our new in-house laser machine in action — cutting die boards." },
       "thumbnail": "/images/video-1.svg",
       "youtubeId": "",
-      "externalUrl": ""
+      "externalUrl": "https://www.instagram.com/reel/DTO4k8OD36T/"
     },
     {
-      "id": "video-laser",
-      "category": "laser",
-      "title": {
-        "zh": "雷射切割過程",
-        "en": "Laser Cutting Process"
-      },
-      "short": {
-        "zh": "雷射切割底板與刀模的製作示範。",
-        "en": "Demonstration of laser cutting for die boards."
-      },
+      "id": "video-baseboard-intro",
+      "category": "product",
+      "title": { "zh": "底模鋼板介紹", "en": "Steel Base Board Introduction" },
+      "short": { "zh": "底模鋼板的用途、特性與應用方式說明。", "en": "Overview of steel base board applications and features." },
       "thumbnail": "/images/video-2.svg",
       "youtubeId": "",
-      "externalUrl": ""
+      "externalUrl": "https://www.instagram.com/reel/CmvoJXdB-6_/"
     },
     {
-      "id": "video-forming",
-      "category": "forming",
-      "title": {
-        "zh": "紙盒成型示範",
-        "en": "Carton Forming Demo"
-      },
-      "short": {
-        "zh": "從刀模到成品紙盒的成型過程。",
-        "en": "From die to finished carton — the forming process."
-      },
+      "id": "video-baseboard-process",
+      "category": "process",
+      "title": { "zh": "底模鋼板製作過程", "en": "Steel Base Board Production" },
+      "short": { "zh": "從材料到成品，底模鋼板的製作流程實錄。", "en": "From raw material to finished product — steel base board production." },
       "thumbnail": "/images/video-3.svg",
       "youtubeId": "",
-      "externalUrl": ""
+      "externalUrl": "https://www.instagram.com/reel/DN5IxTDD3Ut/"
+    },
+    {
+      "id": "video-stripping-die",
+      "category": "product",
+      "title": { "zh": "除屑模具介紹", "en": "Waste Stripping Die Introduction" },
+      "short": { "zh": "本公司專利除屑模具的功能與操作方式介紹。", "en": "Introduction to our patented waste stripping die — features and operation." },
+      "thumbnail": "/images/video-1.svg",
+      "youtubeId": "",
+      "externalUrl": "https://www.instagram.com/reel/DWHLr8sj0yE/"
     }
   ]
 }
